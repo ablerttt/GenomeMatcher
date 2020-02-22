@@ -1,0 +1,47 @@
+﻿  GenomeMatcher.cpp
+c:\users\albert\desktop\project4\project4\project4\genomematcher.cpp(56): warning C4018: '<': signed/unsigned mismatch
+c:\users\albert\desktop\project4\project4\project4\genomematcher.cpp(162): warning C4018: '<': signed/unsigned mismatch
+c:\users\albert\desktop\project4\project4\project4\genomematcher.cpp(172): warning C4018: '<': signed/unsigned mismatch
+c:\users\albert\desktop\project4\project4\project4\genomematcher.cpp(188): warning C4018: '<': signed/unsigned mismatch
+c:\users\albert\desktop\project4\project4\project4\trie.h(79): warning C4018: '<': signed/unsigned mismatch
+  c:\users\albert\desktop\project4\project4\project4\trie.h(76): note: while compiling class template member function 'void Trie<std::pair<int,int>>::insert(const std::string &,const ValueType &)'
+          with
+          [
+              ValueType=std::pair<int,int>
+          ]
+  c:\users\albert\desktop\project4\project4\project4\genomematcher.cpp(40): note: see reference to function template instantiation 'void Trie<std::pair<int,int>>::insert(const std::string &,const ValueType &)' being compiled
+          with
+          [
+              ValueType=std::pair<int,int>
+          ]
+  c:\users\albert\desktop\project4\project4\project4\genomematcher.cpp(20): note: see reference to class template instantiation 'Trie<std::pair<int,int>>' being compiled
+c:\users\albert\desktop\project4\project4\project4\trie.h(82): warning C4018: '<': signed/unsigned mismatch
+c:\users\albert\desktop\project4\project4\project4\trie.h(121): warning C4018: '<': signed/unsigned mismatch
+  c:\users\albert\desktop\project4\project4\project4\trie.h(115): note: while compiling class template member function 'std::vector<ValueType,std::allocator<_Ty>> Trie<ValueType>::findHelper(const std::string &,bool,Trie<ValueType>::Node *) const'
+          with
+          [
+              ValueType=std::pair<int,int>,
+              _Ty=std::pair<int,int>
+          ]
+  c:\users\albert\desktop\project4\project4\project4\trie.h(110): note: see reference to function template instantiation 'std::vector<ValueType,std::allocator<_Ty>> Trie<ValueType>::findHelper(const std::string &,bool,Trie<ValueType>::Node *) const' being compiled
+          with
+          [
+              ValueType=std::pair<int,int>,
+              _Ty=std::pair<int,int>
+          ]
+  c:\users\albert\desktop\project4\project4\project4\trie.h(39): note: while compiling class template member function 'Trie<std::pair<int,int>>::Trie(void)'
+  c:\users\albert\desktop\project4\project4\project4\genomematcher.cpp(27): note: see reference to function template instantiation 'Trie<std::pair<int,int>>::Trie(void)' being compiled
+c:\users\albert\desktop\project4\project4\project4\trie.h(136): warning C4018: '<': signed/unsigned mismatch
+c:\users\albert\desktop\project4\project4\project4\trie.h(148): warning C4018: '<': signed/unsigned mismatch
+c:\users\albert\desktop\project4\project4\project4\trie.h(116): warning C4101: 'next': unreferenced local variable
+c:\users\albert\desktop\project4\project4\project4\trie.h(120): warning C4101: 'position': unreferenced local variable
+c:\users\albert\desktop\project4\project4\project4\trie.h(135): warning C4101: 'position': unreferenced local variable
+c:\users\albert\desktop\project4\project4\project4\trie.h(147): warning C4101: 'position': unreferenced local variable
+  main.cpp
+  Generating code
+c:\users\albert\desktop\project4\project4\project4\trie.h(158): warning C4715: 'Trie<std::pair<int,int> >::findHelper': not all control paths return a value
+  270 of 553 functions (48.8%) were compiled, the rest were copied from previous compilation.
+    3 functions were new in current compilation
+    38 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  Project4.vcxproj -> C:\Users\Albert\Desktop\Project4\Project4\Release\Project4.exe

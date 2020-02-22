@@ -1,0 +1,5 @@
+﻿  main.cpp
+c:\users\albert\desktop\project4\project4\project4\main.cpp(182): warning C4018: '<': signed/unsigned mismatch
+c:\users\albert\desktop\project4\project4\project4\main.cpp(191): warning C4018: '>': signed/unsigned mismatch
+c:\users\albert\desktop\project4\project4\project4\main.cpp(245): warning C4018: '<': signed/unsigned mismatch
+  Project4.vcxproj -> C:\Users\Albert\Desktop\Project4\Project4\Debug\Project4.exe
